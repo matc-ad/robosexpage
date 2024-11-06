@@ -1,6 +1,6 @@
 export const navLinks = [
 	{ label: "Que es?", path: "/whoami" },
-	{ label: "Instruccions", href: "/instructions2" },
+	{ label: "Instruccions", href: "/instructions" },
 ];
 
 export const colorsOptions = {

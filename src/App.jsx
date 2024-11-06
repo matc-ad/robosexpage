@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { colorsOptions } from "./constants";
 import Home from "./pages/Home";
+import Instructions from "./pages/Instruccions";
+
 
 function App() {
 	const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -30,6 +32,18 @@ function App() {
 					path="/"
 					element={
 						<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+					}
+				/>
+				<Route
+					path="/whoami"
+					element={
+						<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+					}
+				/>
+				<Route
+					path="/instructions"
+					element={
+						<Instructions isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
 					}
 				/>
 			</Routes>
