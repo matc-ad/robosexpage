@@ -8,7 +8,7 @@ const Footer = ({ isDarkMode }) => {
 		<footer
 			className={`text-center py-5 ${colors.navbarBackground} ${colors.text}`}
 		>
-			<p>&copy; 2024 peix.matc.ad. Tots els drets reservats.</p>
+			<p>&copy; 2024 robosex.matc.ad. Tots els drets reservats.</p>
 		</footer>
 	);
 };
